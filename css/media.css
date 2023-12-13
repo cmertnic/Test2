@@ -1,0 +1,244 @@
+@media(max-width:1440px){
+    header{
+        background-color: #D3CBC5;
+        height: 79px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 9;
+    }
+    footer{
+        background-color: #D9D9D9;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    }
+    .main_best_text{
+        font-size: 42px;
+        padding-right: 0px;
+        margin: 0;
+        padding-top: 21px;
+        padding-bottom: 34px;
+        font-weight: 600;
+    }
+    .div_3_main_text{
+     margin-left: auto;
+    }
+    .main_block_1{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main_block{
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+}
+@media(max-width:900px){
+.reciclebin_loop_group{
+display: none;
+
+}
+.logo_text_gr{
+width: auto;
+}
+.burger{
+    position: relative;
+   left: 150%;
+}
+.logo_header{
+    position: relative;
+right: 150%;
+}
+
+footer{
+    background-color: #D9D9D9;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+}
+.burger_img{
+    width: 20px;
+    border: none;
+    z-index: 2;
+    display: block;
+}
+.burger_img_button{
+    background-color: #D3CBC5;
+   border: none; 
+   z-index: 2;
+   display: block;
+
+  }
+.main_block_1{
+    margin-left: auto;
+    margin-right: auto;
+}
+.main_block{
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.header_ul{
+    position: fixed;
+    flex-direction: column;
+    z-index: 9;
+    font-size: 30px;
+    
+    background-color: var(--color-header);
+
+    align-items: flex-end;
+    gap: 20px;
+    right: 0;
+    padding: 40px 20px 50px 30px;
+    top: 50px;
+    width: 220px;
+
+    transform: translateX(110%);
+
+    transition: all .3s ease-in-out;
+align-items: center;
+}
+.header_ul.active {
+    display: flex;
+    transform: translateX(0%);
+    background-color: #D3CBC5;
+}
+.burger_img_button {
+    display: block;
+}
+.burger_img_button.close span {
+    height: 0;
+}
+.burger_img_button.close span::after,
+.burger_img_button.close span::before {
+    top: 0;
+}
+.burger_img_button.close span::after {
+    transform: rotate(45deg);
+}
+.burger_img_button.close span::before {
+    transform: rotate(-45deg);
+}
+}
+@media(max-width:800px){
+.header_text {
+	list-style-type: none;
+}
+.burger_img_button{
+  background-color: #D3CBC5;
+ border: none; 
+ z-index: 2;
+}
+.burger_img_button::after{
+    background-color: #D3CBC5;
+    border: none;  
+}
+.burger_img{
+    width: 20px;
+    display: block;
+}
+.reciclebin_loop_group{
+    display: none;
+}
+.logo_text_gr{
+    width: auto;
+    align-items: none;
+}
+.burger{
+    position: relative;
+   left: 100%;
+}
+.logo_header{
+    position: relative;
+right: 100%;
+}
+.main_best_text{
+    font-size: 20px;
+    padding-right: auto;
+    margin: 0;
+    padding-top: 21px;
+    padding-bottom: 34px;
+    font-weight: 600;
+}
+}
+@media(max-width:500px){
+    .burger{
+        position: relative;
+       left: 50%;
+    }
+    .logo_header{
+        position: relative;
+    right: 50%;
+    } 
+    .main_best_text{
+        font-size: 18px;
+        padding-right: auto;
+        margin: 0;
+        padding-top: 21px;
+        padding-bottom: 34px;
+        font-weight: 600;
+    }
+    .div_3_main_text{
+        min-width: 100px;
+        max-width: 150px;
+    }
+    .main_text1{
+        font-size: 12px;
+    }
+    .main_text2{
+        font-size: 12px;
+    }
+    .main_text3{
+        font-size: 12px;
+    }
+    .news{
+        width: auto;
+        font-size: 24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer_email_text{
+        width: auto;
+
+    }
+    .footer_p{
+        font-size: 16px;
+        max-width: 320px;
+    }
+    .footer_email{
+justify-content: space-around;
+max-width: 340px;
+    }
+
+    .burger{
+        left: 40%;
+    }
+}
+@media(max-width:390px){
+    .footer_main{
+        max-width: 390px;
+        min-width: 320px;
+    }
+    .footer_email_text{
+        max-width: 120px;
+        font-size: 14px;
+    }
+}
+
+
+
